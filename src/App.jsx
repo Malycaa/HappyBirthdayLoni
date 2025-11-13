@@ -5,7 +5,7 @@ import './index.css'
 function App() {
 
   return (
-    <Router>
+    <Router basename="/HappyBirthdayLoni">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/pictures" element={<Picture />} />
